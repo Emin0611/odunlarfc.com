@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bayrakicon{
+    width: 45px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.odunlarfclogo{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(corridor-5587351_640.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.menu-bar{
+    background: #000;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+}
+
+.menu-bar ul li a{
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #01b7ff;
+    border-radius: 20px;
+}

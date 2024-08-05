@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bayrakicon{
+    width: 45px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.odunlarfclogo {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin-left: 15px;
+    color: #000000;
+    background: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.menu-bar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+    width: 1300px;
+    background: #000;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+}
+
+.menu-bar ul li a{
+    color: #fff;
+}
+
+.menu-bar ul li:hover{
+    background: #01b7ff;
+    border-radius: 20px;
+}
+/*fix codes*/
+
+.eminfoto {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+.imgicons{
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.iletisimemin{
+    list-style: none;
+}
+
+.tarz{
+    list-style: none;
+}
+
+.eminkimdir{
+    width: 700px;
+    height: 170px;
+    text-align: center;
+    float: right;
+    margin-top: -100px;
+    padding-right: 100px;
+}
+
+.metinemin{
+    list-style: none;
+    width: 400px;
+    height: auto;
+}
+
+ /*burdaki tüm css kodları egecv.css dosyasındakilerin aynısı buradaki kodlarn aynısını bu sayafnn html dosyasına göre etiketleri değiştirerek
+ html kodlarına uyarla. sayfa dizaynını aynı tasarla*/
+
+ /* Genel stil ayarları */
+
+.odunlarfclogo {
+    max-width: 150px; /* Mobil ekranlarda uygun bir boyut */
+    height: auto;
+}
+
+
+.imgicons {
+    margin-right: 8px;
+    width: 24px; /* İkon boyutlarını standartlaştırıyoruz */
+}
+
+.metinege {
+    margin-top: 1rem;
+}
+
+/* Media query mobil uyumluluk için stil ayarları */
+@media (max-width: 767px) {
+    .odunlarfclogo {
+        max-width: 120px; /* Daha küçük ekranlarda logoyu küçültüyoruz */
+    }
+
+    .imgicons {
+        width: 20px; /* Mobil ekranlarda ikon boyutlarını küçültüyoruz */
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem; /* Mobil ekranlarda menü öğelerini daha uygun hale getiriyoruz */
+    }
+}
